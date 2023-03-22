@@ -1,16 +1,16 @@
-## 我們組的 Raspberry 連線資訊
+### 我們組的 Raspberry 連線資訊
 - 固定 IP : 172.16.13.38
 - 主機名稱 : raspberryTeam1.local
 - 帳號 : pi
 - 密碼 : raspberry
 
-## Google Meet
+### Google Meet
 - https://meet.google.com/aco-ayih-hct
 
-## 老師的 Github
+### 老師的 Github
 - https://github.com/roberthsu2003/raspberry
 
-## 上課影片
+### 上課影片
 - 2023_03_04
 
 	https://youtube.com/live/wfbY49CFn28
@@ -23,13 +23,13 @@
 - 2023_03_18_早上
 
 	https://youtube.com/live/MozOJf65pAI
-## 使用 VS Code 的 remote SSH 跟 Raspberry 連線
+### 使用 VS Code 的 remote SSH 跟 Raspberry 連線
 
 - 因為VNC只能一人遠端桌面控制，無法同時 5 人以上使用，所以我們使用 SSH 連線到 raspberry 操作。
 - 需要知道 raspberry 的 IP 或主機名稱。
 - 安裝 remote SSH，透過 SSH 跟 raspberry 連線，即可在 VS Code 直接編輯 raspberry 上的檔案。
 
-## 將 raspberry 設定為固定 IP
+### 將 raspberry 設定為固定 IP
 - 我們希望上課可以用學校的內部網路，這樣每個人都可以自己連線到 raspberry，而學校的內部網路是固定IP，所以我們要把它設成固定IP。
 - 修改之前，先查一下目前的IP是多少，用 ipconfig 或 ifconfig。
 - 參考 Digital Guide IONOS 網站的說明
