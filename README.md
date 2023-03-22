@@ -40,34 +40,34 @@
 
 ```
 
-	Assign a static private IP address to Raspberry Pi with DHCPCD
+Assign a static private IP address to Raspberry Pi with DHCPCD
 
-	1 確認 DHCPCD 是否已啟動
+1 確認 DHCPCD 是否已啟動
 
-	sudo service dhcpcd status
-	
-	2 如果沒有，啟動它
-	
-	sudo service dhcpcd start
-	sudo systemctl enable dhcpcd
+sudo service dhcpcd status
 
-	3 編輯 DHCPCD 的 config
+2 如果沒有，啟動它
 
-	sudo nano /etc/dhcpcd.conf
+sudo service dhcpcd start
+sudo systemctl enable dhcpcd
 
-	4 修改以下欄位, ip arddress 就改目前的 ip，router 就是 Getway，domain name server 打 8.8.8.8，這是 google 的 domain name serer
+3 編輯 DHCPCD 的 config
 
-	interface eth0
-	static ip_address=192.168.0.4/24
-	static routers=192.168.0.1
-	static domain_name_servers=192.168.0.1
+sudo nano /etc/dhcpcd.conf
 
-	5 重新開機
+4 修改以下欄位, ip arddress 就改目前的 ip，router 就是 Getway，domain name server 打 8.8.8.8，這是 google 的 domain name serer
 
-	sudo reboot
+interface eth0
+static ip_address=192.168.0.4/24
+static routers=192.168.0.1
+static domain_name_servers=192.168.0.1
 
-	6 檢查有沒有成功，用 ping 檢查
-	
-	ping raspberryTeam1.local
+5 重新開機
+
+sudo reboot
+
+6 檢查有沒有成功，用 ping 檢查
+
+ping raspberryTeam1.local
 
 ```
