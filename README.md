@@ -55,7 +55,8 @@ sudo systemctl enable dhcpcd
 
 sudo nano /etc/dhcpcd.conf
 
-4 修改以下欄位, ip arddress 就改目前的 ip，router 就是 Getway，domain name server 打 8.8.8.8，這是 google 的 domain name serer
+4 修改以下欄位, ip arddress 就改目前的 ip，router 就是 Getway，
+domain name server 打 8.8.8.8，這是 google 的 domain name serer
 
 interface eth0
 static ip_address=192.168.0.4/24
