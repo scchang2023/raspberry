@@ -30,8 +30,18 @@
 - 因為VNC只能一人遠端桌面控制，無法同時 5 人以上使用，所以我們使用 SSH 連線到raspberry 操作。
 - 需要知道 raspberry 的 IP 或主機名稱。
 - 安裝 remote SSH，透過 SSH 跟 raspberry 連線，即可在 VS Code 直接編輯 raspberry 上的檔案。
+- 安裝過程如下：
 
-[圖一](./images/remote_ssh_01.png)
+	[圖1](./images/remote_ssh_01.png)
+	[圖2](./images/remote_ssh_02.png)
+	[圖3](./images/remote_ssh_03.png)
+	[圖4](./images/remote_ssh_04.png)
+	[圖5](./images/remote_ssh_05.png)
+	[圖6](./images/remote_ssh_06.png)
+	[圖7](./images/remote_ssh_07.png)
+	[圖8](./images/remote_ssh_08.png)
+	[圖9](./images/remote_ssh_09.png)
+	[圖10](./images/remote_ssh_10.png)
 
 ### 將 raspberry 設定為固定 IP
 - 我們希望上課可以用學校的內部網路，這樣每個人都可以自己連線到 raspberry，而學校的內部網路是固定 IP，所以我們要把它設成固定 IP。
